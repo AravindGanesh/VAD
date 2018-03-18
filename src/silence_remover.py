@@ -1,5 +1,5 @@
 """ Code to remove silence intervals in an audio file """
-# TODO: Use suitable  top_db for farfield voice activity detection
+# TODO: Use suitable  top_db for FAR-FIELD voice activity detection
 
 import numpy as np
 import librosa
