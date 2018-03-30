@@ -9,7 +9,7 @@ FRAME_DURATION = 1.0 # sec
 SAMPLE_WINDOW = int(SAMPLE_RATE*FRAME_DURATION) 
 OUTPUT_LENGTH = 13 # length of feature column
 
-filenames = glob.glob('/home/aravind/IDP/VAD/src/test.wav')
+filenames = glob.glob('/home/aravind/IDP/VAD/data/train_data/*.flac')
 # filenames = glob.glob('/home/aravind/IDP/VAD/data/train_data/1272-141231-0030.flac')
 
 def read_audio(filename):
