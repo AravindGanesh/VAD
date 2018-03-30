@@ -12,7 +12,7 @@ class VoiceActivityDetector():
         self.sample_window = 0.02 #20 ms
         self.sample_overlap = 0.01 #10ms
         self.speech_window = 0.5 #half a second
-        self.speech_energy_threshold = 0.4 #40% of energy in voice band
+        self.speech_energy_threshold = 0.5 #40% of energy in voice band
         self.speech_start_band = 300
         self.speech_end_band = 3000
            
